@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>replit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+  <body>
+  <div class="container">
+    <H1>Temporizador</H1>
+  <div id="tempo" style="color:white;" ;>0.0s</div>
+  
+  <div class="button">
+    <button id="start">START</button>  
+    <button id="pause">PAUSE</button>  
+    <button id="reset">RESET</button>  
+    <button id="mark">MARK</button>
+  </div>
+  <!--Novo Lista de marcadores-->
+  <div class="button">
+  <!--Cria um select multiplo onde receberá o valor atual do tempo-->
+  <select name="marker" id="timerlista" multiple>
+  <!--Gerado automaticamente os valores do marcador-->
+  </select><br>
+  <button id="clearall">LIMPAR TUDO</button>
+  <button id="removelast">REMOVER ULTIMO</button>
+  </div>
+  
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

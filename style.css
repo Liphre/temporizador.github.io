@@ -1,0 +1,34 @@
+.wow {
+  width: 100px;
+}
+
+h1{
+  color: white;
+  font-size:25px;
+  font-family:arial, helvetica;
+}
+
+body{
+  magin:100%;
+  background-image:url("tempo.png");
+  background-repeat:no-repeat;
+  background-size:cover;     
+}
+
+.container{
+  margin:auto;
+  text-align:center;
+  background-color:rgba(128, 128, 128,0.5);
+  font-size:50px; 
+  padding:10px;
+
+  border: 2px solid white;
+  width:40%;
+  
+}
+/*Lista de marcadores*/
+select{
+width: 400px;
+height:60px;
+	
+}
