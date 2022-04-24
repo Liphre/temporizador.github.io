@@ -1,2 +1,2 @@
 # temporizador.github.io
-Temporizador feito em sala melhorado em casa
+Temporizador feito em sala, melhorado em casa.
